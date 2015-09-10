@@ -32,7 +32,7 @@
             <key>name</key>
             <string>Blue</string>
             <key>scope</key>
-            <string>source, variable, constant, keyword.other, support.class, support.function, support.type, support.constant, support.other.variable, storage.type, meta.function-call, meta.tag, entity.name.tag, entity.other.attribute-name, entity.name.class, entity.name.function, entity.name.type.class, comment, punctuation.section.embedded, declaration.tag, comment.block.documentation</string>
+            <string>source, variable, constant, keyword.other, support.class, support.function, support.type, support.constant, support.other.variable, storage.type, meta.function-call, meta.tag, meta.other.inherited-class.php, entity.other.inherited-class.php, entity.name.tag, entity.other.attribute-name, entity.name.class, entity.name.function, entity.name.type.class, comment, punctuation.section.embedded, declaration.tag</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -50,7 +50,7 @@
             <key>name</key>
             <string>Green</string>
             <key>scope</key>
-            <string>keyword, storage, storage.type.class, variable.other.global, source.php.embedded.block.html</string>
+            <string>keyword, storage, storage.type.class, storage.type.function, variable.other.global, source.php.embedded.block.html, keyword.other.new.php, meta.array.php, support.function.construct.php</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -80,7 +80,25 @@
             </dict>
         </dict>
 
-        <!-- Gray  -->
+        <!-- Orange -->
+
+        <dict>
+            <key>name</key>
+            <string>Blue</string>
+            <key>scope</key>
+            <string>comment, comment.block.documentation, comment.block.documentation.phpdoc.php</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string></string>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#f80</string>
+            </dict>
+        </dict>
+
+        <!-- Gray
 
         <dict>
             <key>name</key>
@@ -97,6 +115,7 @@
                 <string>#ccc</string>
             </dict>
         </dict>
+        -->
 
     </array>
 </dict>
