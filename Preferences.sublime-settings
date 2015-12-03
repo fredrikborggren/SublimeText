@@ -1,14 +1,23 @@
 {
-    "color_scheme": "Packages/User/php.net.tmTheme",
-    "draw_white_space": "all",
-    "line_padding_bottom": 3,
-    "line_padding_top": 3,
-    "line_numbers": true,
-    "gutter": true,
-    "file_exclude_patterns": [ "._*", ".DS_Store" ],
-    "find_selected_text": true,
-    "font_face": "fira mono",
-    "font_size": 14,
-    "ignored_packages": [ "Vintage" ],
+    "color_scheme": "Packages/One Dark Material - Theme/schemes/OneDark.tmTheme",
+    "enable_tab_scrolling": false,
+    "font_face": "input mono",
+    "font_settings":
+    [
+        "subpixel-antialiased"
+    ],
+    "font_size": 9,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "open_files_in_new_window": false,
+    "overlay_scroll_bars": "enabled",
+    "soda_classic_tabs": true,
+    "soda_folder_icons": true,
+    "tab_size": 4,
+    "theme": "OneDarkMaterial.sublime-theme",
     "translate_tabs_to_spaces": true
 }
